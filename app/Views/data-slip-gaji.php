@@ -47,19 +47,6 @@
                     <a href="#" class="btn btn-danger btn-sm">Hapus</a>
                   </td>
                 </tr>
-                <tr>
-                  <td>2</td>
-                  <td>Ahmad Fauzi</td>
-                  <td>Staff</td>
-                  <td>Rp6,000,000</td>
-                  <td>Rp1,000,000</td>
-                  <td>Rp300,000</td>
-                  <td>Rp6,700,000</td>
-                  <td>
-                    <a href="#" class="btn btn-warning btn-sm">Edit</a>
-                    <a href="#" class="btn btn-danger btn-sm">Hapus</a>
-                  </td>
-                </tr>
               </tbody>
             </table>
           </div>
