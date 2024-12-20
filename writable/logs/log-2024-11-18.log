@@ -1,0 +1,186 @@
+CRITICAL - 2024-11-18 03:20:31 --> ErrorException: Undefined array key "nama_bidang"
+[Method: POST, Route: data-penilaian/cetak]
+in APPPATH\Views\data-penilaian-cetak.php on line 84.
+ 1 APPPATH\Views\data-penilaian-cetak.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bidang"', 'D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian-cetak.php', 84)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian-cetak.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-penilaian-cetak', [], true)
+ 5 APPPATH\Controllers\DataPenilaian.php(171): view('data-penilaian-cetak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->cetak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-18 03:24:06 --> ErrorException: Undefined property: App\Controllers\DataPenilaian::$bidangModel
+[Method: POST, Route: data-penilaian/cetak]
+in APPPATH\Controllers\DataPenilaian.php on line 169.
+ 1 APPPATH\Controllers\DataPenilaian.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DataPenilaian::$bidangModel', 'D:\\laragon\\www\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 169)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->cetak()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-18 03:24:18 --> ErrorException: Undefined property: App\Controllers\DataPenilaian::$bidangModel
+[Method: POST, Route: data-penilaian/cetak]
+in APPPATH\Controllers\DataPenilaian.php on line 169.
+ 1 APPPATH\Controllers\DataPenilaian.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DataPenilaian::$bidangModel', 'D:\\laragon\\www\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 169)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->cetak()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-18 03:25:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: data-penilaian/cetak]
+in APPPATH\Views\data-penilaian-cetak.php on line 84.
+ 1 APPPATH\Views\data-penilaian-cetak.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian-cetak.php', 84)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian-cetak.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-penilaian-cetak', [], true)
+ 5 APPPATH\Controllers\DataPenilaian.php(174): view('data-penilaian-cetak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->cetak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-18 03:29:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: data-penilaian/cetak]
+in APPPATH\Views\data-penilaian-cetak.php on line 84.
+ 1 APPPATH\Views\data-penilaian-cetak.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian-cetak.php', 84)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian-cetak.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-penilaian-cetak', [], true)
+ 5 APPPATH\Controllers\DataPenilaian.php(178): view('data-penilaian-cetak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->cetak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-18 03:30:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: data-penilaian/cetak]
+in APPPATH\Views\data-penilaian-cetak.php on line 220.
+ 1 APPPATH\Views\data-penilaian-cetak.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian-cetak.php', 220)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian-cetak.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-penilaian-cetak', [], true)
+ 5 APPPATH\Controllers\DataPenilaian.php(178): view('data-penilaian-cetak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->cetak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-18 03:30:33 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: data-penilaian/cetak]
+in APPPATH\Views\data-penilaian-cetak.php on line 220.
+ 1 APPPATH\Views\data-penilaian-cetak.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian-cetak.php', 220)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian-cetak.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-penilaian-cetak', [], true)
+ 5 APPPATH\Controllers\DataPenilaian.php(178): view('data-penilaian-cetak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->cetak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-18 03:31:23 --> ErrorException: Undefined variable $cek
+[Method: POST, Route: data-penilaian/cetak]
+in APPPATH\Controllers\DataPenilaian.php on line 177.
+ 1 APPPATH\Controllers\DataPenilaian.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cek', 'D:\\laragon\\www\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 177)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->cetak()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-18 03:33:11 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: data-penilaian/cetak]
+in APPPATH\Views\data-penilaian-cetak.php on line 223.
+ 1 APPPATH\Views\data-penilaian-cetak.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian-cetak.php', 223)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian-cetak.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-penilaian-cetak', [], true)
+ 5 APPPATH\Controllers\DataPenilaian.php(179): view('data-penilaian-cetak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->cetak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-18 03:38:11 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: data-penilaian/cetak]
+in APPPATH\Views\data-penilaian-cetak.php on line 87.
+ 1 APPPATH\Views\data-penilaian-cetak.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian-cetak.php', 87)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian-cetak.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-penilaian-cetak', [], true)
+ 5 APPPATH\Controllers\DataPenilaian.php(180): view('data-penilaian-cetak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->cetak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-18 03:38:36 --> ErrorException: Undefined array key "nama_bidang"
+[Method: POST, Route: data-penilaian/cetak]
+in APPPATH\Views\data-penilaian-cetak.php on line 223.
+ 1 APPPATH\Views\data-penilaian-cetak.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bidang"', 'D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian-cetak.php', 223)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian-cetak.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-penilaian-cetak', [], true)
+ 5 APPPATH\Controllers\DataPenilaian.php(180): view('data-penilaian-cetak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->cetak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-18 07:52:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 39.
+ 1 APPPATH\Controllers\DataPenilaian.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-18 07:53:04 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-karyawan]
+in APPPATH\Controllers\Datakaryawan.php on line 28.
+ 1 APPPATH\Controllers\Datakaryawan.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\rekap_kinerja\\app\\Controllers\\Datakaryawan.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Datakaryawan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datakaryawan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-18 07:53:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-karyawan]
+in APPPATH\Controllers\Datakaryawan.php on line 28.
+ 1 APPPATH\Controllers\Datakaryawan.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\rekap_kinerja\\app\\Controllers\\Datakaryawan.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Datakaryawan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datakaryawan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')

@@ -1,0 +1,337 @@
+CRITICAL - 2024-10-28 05:08:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "header.php"
+[Method: GET, Route: data-karyawan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\Datakaryawan.php(9): view('header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Datakaryawan->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datakaryawan))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+ERROR - 2024-10-28 05:22:12 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', 'root', 'ci4', 3306, '', 0)
+#1 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\laragon\www\rekap_kinerja\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\rekap_kinerja\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\rekap_kinerja\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\rekap_kinerja\app\Controllers\Datakaryawan.php(17): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(933): App\Controllers\Datakaryawan->index()
+#8 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datakaryawan))
+#9 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\rekap_kinerja\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\rekap_kinerja\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\laragon\www\rekap_kinerja\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\laragon\www\rekap_kinerja\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\rekap_kinerja\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\laragon\www\rekap_kinerja\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\laragon\www\rekap_kinerja\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\laragon\www\rekap_kinerja\app\Controllers\Datakaryawan.php(17): CodeIgniter\BaseModel->findAll()
+#6 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(933): App\Controllers\Datakaryawan->index()
+#7 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datakaryawan))
+#8 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\rekap_kinerja\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\rekap_kinerja\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\laragon\www\rekap_kinerja\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\laragon\www\rekap_kinerja\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-10-28 05:22:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: data-karyawan]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `karyawan`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Datakaryawan.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Datakaryawan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datakaryawan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+ERROR - 2024-10-28 05:23:35 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', 'root', 'ci4', 3306, '', 0)
+#1 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\laragon\www\rekap_kinerja\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\rekap_kinerja\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\rekap_kinerja\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\rekap_kinerja\app\Controllers\Datakaryawan.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(933): App\Controllers\Datakaryawan->index()
+#8 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datakaryawan))
+#9 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\rekap_kinerja\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\rekap_kinerja\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\laragon\www\rekap_kinerja\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\laragon\www\rekap_kinerja\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\rekap_kinerja\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\laragon\www\rekap_kinerja\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\laragon\www\rekap_kinerja\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\laragon\www\rekap_kinerja\app\Controllers\Datakaryawan.php(18): CodeIgniter\BaseModel->findAll()
+#6 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(933): App\Controllers\Datakaryawan->index()
+#7 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datakaryawan))
+#8 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\rekap_kinerja\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\rekap_kinerja\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\laragon\www\rekap_kinerja\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\laragon\www\rekap_kinerja\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-10-28 05:23:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: data-karyawan]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `karyawan`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Datakaryawan.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Datakaryawan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datakaryawan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+ERROR - 2024-10-28 05:23:44 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', 'root', 'ci4', 3306, '', 0)
+#1 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\laragon\www\rekap_kinerja\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\rekap_kinerja\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\rekap_kinerja\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\rekap_kinerja\app\Controllers\Datakaryawan.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(933): App\Controllers\Datakaryawan->index()
+#8 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datakaryawan))
+#9 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\rekap_kinerja\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\rekap_kinerja\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\laragon\www\rekap_kinerja\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\laragon\www\rekap_kinerja\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\rekap_kinerja\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\laragon\www\rekap_kinerja\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\laragon\www\rekap_kinerja\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\laragon\www\rekap_kinerja\app\Controllers\Datakaryawan.php(18): CodeIgniter\BaseModel->findAll()
+#6 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(933): App\Controllers\Datakaryawan->index()
+#7 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datakaryawan))
+#8 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\rekap_kinerja\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\rekap_kinerja\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\laragon\www\rekap_kinerja\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\laragon\www\rekap_kinerja\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-10-28 05:23:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: data-karyawan]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `karyawan`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Datakaryawan.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Datakaryawan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datakaryawan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+ERROR - 2024-10-28 05:24:28 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', 'root', 'ci4', 3306, '', 0)
+#1 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\laragon\www\rekap_kinerja\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\rekap_kinerja\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\rekap_kinerja\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\rekap_kinerja\app\Controllers\Datakaryawan.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(933): App\Controllers\Datakaryawan->index()
+#8 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datakaryawan))
+#9 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\rekap_kinerja\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\rekap_kinerja\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\laragon\www\rekap_kinerja\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\laragon\www\rekap_kinerja\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\rekap_kinerja\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\laragon\www\rekap_kinerja\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\laragon\www\rekap_kinerja\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\laragon\www\rekap_kinerja\app\Controllers\Datakaryawan.php(18): CodeIgniter\BaseModel->findAll()
+#6 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(933): App\Controllers\Datakaryawan->index()
+#7 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datakaryawan))
+#8 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\rekap_kinerja\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\rekap_kinerja\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\laragon\www\rekap_kinerja\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\laragon\www\rekap_kinerja\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-10-28 05:24:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: data-karyawan]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `karyawan`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Datakaryawan.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Datakaryawan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datakaryawan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-10-28 05:37:21 --> Error: Class "App\Models\BidangModel" not found
+[Method: GET, Route: data-karyawan]
+in APPPATH\Controllers\Datakaryawan.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Datakaryawan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-10-28 05:37:35 --> Error: Class "App\Models\BidangModel" not found
+[Method: GET, Route: data-karyawan]
+in APPPATH\Controllers\Datakaryawan.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Datakaryawan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-10-28 05:37:56 --> Error: Class "App\Models\BidangModel" not found
+[Method: GET, Route: data-karyawan]
+in APPPATH\Controllers\Datakaryawan.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Datakaryawan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-10-28 05:38:33 --> Error: Class "App\Models\BidangModel" not found
+[Method: GET, Route: data-karyawan]
+in APPPATH\Controllers\Datakaryawan.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Datakaryawan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-10-28 05:38:35 --> Error: Class "App\Models\BidangModel" not found
+[Method: GET, Route: data-karyawan]
+in APPPATH\Controllers\Datakaryawan.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Datakaryawan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-10-28 05:39:37 --> Error: Class "App\Models\BidangModel" not found
+[Method: GET, Route: data-karyawan]
+in APPPATH\Controllers\Datakaryawan.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Datakaryawan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-10-28 05:40:14 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: tambah-karyawan/tambah]
+in APPPATH\Controllers\Datakaryawan.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Datakaryawan->tambah()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datakaryawan))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-10-28 05:40:59 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: tambah-karyawan/tambah]
+in APPPATH\Controllers\Datakaryawan.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Datakaryawan->tambah()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datakaryawan))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-10-28 05:41:00 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: tambah-karyawan/tambah]
+in APPPATH\Controllers\Datakaryawan.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Datakaryawan->tambah()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datakaryawan))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-10-28 06:39:56 --> ErrorException: Undefined array key "tahun"
+[Method: GET, Route: data-penilaian]
+in APPPATH\Views\data-penilaian.php on line 54.
+ 1 APPPATH\Views\data-penilaian.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tahun"', 'D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-penilaian', [], true)
+ 5 APPPATH\Controllers\DataPenilaian.php(26): view('data-penilaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-10-28 07:42:18 --> ErrorException: Undefined variable $hasil
+[Method: GET, Route: data-penilaian]
+in APPPATH\Views\data-penilaian.php on line 56.
+ 1 APPPATH\Views\data-penilaian.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hasil', 'D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian.php', 56)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-penilaian', [], true)
+ 5 APPPATH\Controllers\DataPenilaian.php(27): view('data-penilaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')

@@ -1,0 +1,605 @@
+CRITICAL - 2024-11-06 04:24:44 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 24.
+ 1 APPPATH\Controllers\DataPenilaian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 04:24:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 24.
+ 1 APPPATH\Controllers\DataPenilaian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 04:24:53 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 24.
+ 1 APPPATH\Controllers\DataPenilaian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 04:24:55 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 24.
+ 1 APPPATH\Controllers\DataPenilaian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 04:34:00 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 24.
+ 1 APPPATH\Controllers\DataPenilaian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 04:34:02 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 24.
+ 1 APPPATH\Controllers\DataPenilaian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 04:34:48 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 24.
+ 1 APPPATH\Controllers\DataPenilaian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 04:35:03 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 24.
+ 1 APPPATH\Controllers\DataPenilaian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 04:40:36 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 24.
+ 1 APPPATH\Controllers\DataPenilaian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 04:40:37 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 24.
+ 1 APPPATH\Controllers\DataPenilaian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 04:40:38 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 24.
+ 1 APPPATH\Controllers\DataPenilaian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 05:12:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 24.
+ 1 APPPATH\Controllers\DataPenilaian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 05:12:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 24.
+ 1 APPPATH\Controllers\DataPenilaian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 05:12:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 24.
+ 1 APPPATH\Controllers\DataPenilaian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 05:12:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 24.
+ 1 APPPATH\Controllers\DataPenilaian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 05:12:10 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 24.
+ 1 APPPATH\Controllers\DataPenilaian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 05:18:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 24.
+ 1 APPPATH\Controllers\DataPenilaian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 05:18:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 24.
+ 1 APPPATH\Controllers\DataPenilaian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\rekap_kinerja\\public\\index.php')
+ERROR - 2024-11-06 06:33:26 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'rekap_kinerja', 3306, '', 0)
+#1 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\laragon\www\rekap_kinerja\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\rekap_kinerja\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\rekap_kinerja\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\laragon\www\rekap_kinerja\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#7 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(933): App\Controllers\Auth->login()
+#8 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\rekap_kinerja\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\rekap_kinerja\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\laragon\www\rekap_kinerja\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\laragon\www\rekap_kinerja\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\rekap_kinerja\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\laragon\www\rekap_kinerja\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\laragon\www\rekap_kinerja\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\laragon\www\rekap_kinerja\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#6 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(933): App\Controllers\Auth->login()
+#7 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\rekap_kinerja\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\rekap_kinerja\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\laragon\www\rekap_kinerja\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\laragon\www\rekap_kinerja\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-11-06 06:33:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: login_proses]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login`
+WHERE `username` = :username:
+AND `password` = :password:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+ERROR - 2024-11-06 06:34:01 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'rekap_kinerja', 3306, '', 0)
+#1 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\laragon\www\rekap_kinerja\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\rekap_kinerja\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\rekap_kinerja\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\laragon\www\rekap_kinerja\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#7 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(933): App\Controllers\Auth->login()
+#8 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\rekap_kinerja\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\rekap_kinerja\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\laragon\www\rekap_kinerja\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\laragon\www\rekap_kinerja\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\rekap_kinerja\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\laragon\www\rekap_kinerja\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\laragon\www\rekap_kinerja\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\laragon\www\rekap_kinerja\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#6 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(933): App\Controllers\Auth->login()
+#7 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\rekap_kinerja\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\rekap_kinerja\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\laragon\www\rekap_kinerja\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\laragon\www\rekap_kinerja\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-11-06 06:34:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: login_proses]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login`
+WHERE `username` = :username:
+AND `password` = :password:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+ERROR - 2024-11-06 06:34:49 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'rekap_kinerja', 3306, '', 0)
+#1 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\laragon\www\rekap_kinerja\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\rekap_kinerja\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\rekap_kinerja\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\laragon\www\rekap_kinerja\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#7 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(933): App\Controllers\Auth->login()
+#8 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\rekap_kinerja\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\rekap_kinerja\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\laragon\www\rekap_kinerja\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\laragon\www\rekap_kinerja\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\rekap_kinerja\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\laragon\www\rekap_kinerja\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\laragon\www\rekap_kinerja\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\laragon\www\rekap_kinerja\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#6 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(933): App\Controllers\Auth->login()
+#7 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\rekap_kinerja\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\rekap_kinerja\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\laragon\www\rekap_kinerja\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\laragon\www\rekap_kinerja\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-11-06 06:34:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: login_proses]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login`
+WHERE `username` = :username:
+AND `password` = :password:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 06:38:14 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 24.
+ 1 APPPATH\Controllers\DataPenilaian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 06:39:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 24.
+ 1 APPPATH\Controllers\DataPenilaian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 06:39:18 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 24.
+ 1 APPPATH\Controllers\DataPenilaian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 06:39:52 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 24.
+ 1 APPPATH\Controllers\DataPenilaian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 07:04:30 --> Error: Call to undefined method CodeIgniter\View\View::bulanindo()
+[Method: GET, Route: data-penilaian/cetak]
+in APPPATH\Views\data-penilaian-cetak.php on line 60.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-penilaian-cetak', [], true)
+ 4 APPPATH\Controllers\DataPenilaian.php(134): view('data-penilaian-cetak', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->cetak()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 07:15:34 --> ErrorException: Undefined array key "jabatan"
+[Method: GET, Route: data-penilaian/cetak]
+in APPPATH\Views\data-penilaian-cetak.php on line 120.
+ 1 APPPATH\Views\data-penilaian-cetak.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jabatan"', 'D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian-cetak.php', 120)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian-cetak.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-penilaian-cetak', [], true)
+ 5 APPPATH\Controllers\DataPenilaian.php(134): view('data-penilaian-cetak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->cetak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+ERROR - 2024-11-06 07:16:35 --> mysqli_sql_exception: Unknown column 'karyawan.id_bidang' in 'on clause' in D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `penilai...', 0)
+#1 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `penilai...')
+#2 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `penilai...')
+#3 D:\laragon\www\rekap_kinerja\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `penilai...', Array, false)
+#4 D:\laragon\www\rekap_kinerja\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\rekap_kinerja\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\rekap_kinerja\app\Controllers\DataPenilaian.php(134): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(933): App\Controllers\DataPenilaian->cetak()
+#8 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+#9 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\rekap_kinerja\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\rekap_kinerja\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\laragon\www\rekap_kinerja\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\laragon\www\rekap_kinerja\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-11-06 07:16:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'karyawan.id_bidang' in 'on clause'
+[Method: GET, Route: data-penilaian/cetak]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `penilaian`.*, `karyawan`.*, `bidang`.`nama_bidang`
+FROM `penilaian`
+JOIN `bidang` ON `bidang`.`id_bidang` = `karyawan`.`id_bidang`
+JOIN `karyawan` ON `karyawan`.`id_karyawan` = `penilaian`.`id_karyawan`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\DataPenilaian.php(134): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->cetak()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 07:16:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'karyawan.id_bidang' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `penilaian`.*, `karyawan`.*, `bidang`.`nama_bidang`
+FROM `penilaian`
+JOIN `bidang` ON `bidang`.`id_bidang` = `karyawan`.`id_bidang`
+JOIN `karyawan` ON `karyawan`.`id_karyawan` = `penilaian`.`id_karyawan`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `penilaian`.*, `karyawan`.*, `bidang`.`nama_bidang`
+FROM `penilaian`
+JOIN `bidang` ON `bidang`.`id_bidang` = `karyawan`.`id_bidang`
+JOIN `karyawan` ON `karyawan`.`id_karyawan` = `penilaian`.`id_karyawan`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `penilaian`.*, `karyawan`.*, `bidang`.`nama_bidang`
+FROM `penilaian`
+JOIN `bidang` ON `bidang`.`id_bidang` = `karyawan`.`id_bidang`
+JOIN `karyawan` ON `karyawan`.`id_karyawan` = `penilaian`.`id_karyawan`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\DataPenilaian.php(134): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->cetak()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 07:16:35 --> [Caused by] mysqli_sql_exception: Unknown column 'karyawan.id_bidang' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `penilaian`.*, `karyawan`.*, `bidang`.`nama_bidang`
+FROM `penilaian`
+JOIN `bidang` ON `bidang`.`id_bidang` = `karyawan`.`id_bidang`
+JOIN `karyawan` ON `karyawan`.`id_karyawan` = `penilaian`.`id_karyawan`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `penilaian`.*, `karyawan`.*, `bidang`.`nama_bidang`
+FROM `penilaian`
+JOIN `bidang` ON `bidang`.`id_bidang` = `karyawan`.`id_bidang`
+JOIN `karyawan` ON `karyawan`.`id_karyawan` = `penilaian`.`id_karyawan`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `penilaian`.*, `karyawan`.*, `bidang`.`nama_bidang`
+FROM `penilaian`
+JOIN `bidang` ON `bidang`.`id_bidang` = `karyawan`.`id_bidang`
+JOIN `karyawan` ON `karyawan`.`id_karyawan` = `penilaian`.`id_karyawan`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `penilaian`.*, `karyawan`.*, `bidang`.`nama_bidang`
+FROM `penilaian`
+JOIN `bidang` ON `bidang`.`id_bidang` = `karyawan`.`id_bidang`
+JOIN `karyawan` ON `karyawan`.`id_karyawan` = `penilaian`.`id_karyawan`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\DataPenilaian.php(134): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->cetak()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+ERROR - 2024-11-06 07:16:49 --> mysqli_sql_exception: Unknown column 'karyawan.id_bidang' in 'on clause' in D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\laragon\www\rekap_kinerja\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `penilai...', 0)
+#1 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `penilai...')
+#2 D:\laragon\www\rekap_kinerja\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `penilai...')
+#3 D:\laragon\www\rekap_kinerja\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `penilai...', Array, false)
+#4 D:\laragon\www\rekap_kinerja\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\rekap_kinerja\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\rekap_kinerja\app\Controllers\DataPenilaian.php(134): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(933): App\Controllers\DataPenilaian->cetak()
+#8 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+#9 D:\laragon\www\rekap_kinerja\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\rekap_kinerja\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\rekap_kinerja\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\laragon\www\rekap_kinerja\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\laragon\www\rekap_kinerja\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-11-06 07:16:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'karyawan.id_bidang' in 'on clause'
+[Method: GET, Route: data-penilaian/cetak]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `penilaian`.*, `karyawan`.*, `bidang`.`nama_bidang`
+FROM `penilaian`
+JOIN `bidang` ON `bidang`.`id_bidang` = `karyawan`.`id_bidang`
+JOIN `karyawan` ON `karyawan`.`id_karyawan` = `penilaian`.`id_karyawan`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\DataPenilaian.php(134): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->cetak()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 07:16:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'karyawan.id_bidang' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `penilaian`.*, `karyawan`.*, `bidang`.`nama_bidang`
+FROM `penilaian`
+JOIN `bidang` ON `bidang`.`id_bidang` = `karyawan`.`id_bidang`
+JOIN `karyawan` ON `karyawan`.`id_karyawan` = `penilaian`.`id_karyawan`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `penilaian`.*, `karyawan`.*, `bidang`.`nama_bidang`
+FROM `penilaian`
+JOIN `bidang` ON `bidang`.`id_bidang` = `karyawan`.`id_bidang`
+JOIN `karyawan` ON `karyawan`.`id_karyawan` = `penilaian`.`id_karyawan`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `penilaian`.*, `karyawan`.*, `bidang`.`nama_bidang`
+FROM `penilaian`
+JOIN `bidang` ON `bidang`.`id_bidang` = `karyawan`.`id_bidang`
+JOIN `karyawan` ON `karyawan`.`id_karyawan` = `penilaian`.`id_karyawan`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\DataPenilaian.php(134): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->cetak()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-11-06 07:16:49 --> [Caused by] mysqli_sql_exception: Unknown column 'karyawan.id_bidang' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `penilaian`.*, `karyawan`.*, `bidang`.`nama_bidang`
+FROM `penilaian`
+JOIN `bidang` ON `bidang`.`id_bidang` = `karyawan`.`id_bidang`
+JOIN `karyawan` ON `karyawan`.`id_karyawan` = `penilaian`.`id_karyawan`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `penilaian`.*, `karyawan`.*, `bidang`.`nama_bidang`
+FROM `penilaian`
+JOIN `bidang` ON `bidang`.`id_bidang` = `karyawan`.`id_bidang`
+JOIN `karyawan` ON `karyawan`.`id_karyawan` = `penilaian`.`id_karyawan`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `penilaian`.*, `karyawan`.*, `bidang`.`nama_bidang`
+FROM `penilaian`
+JOIN `bidang` ON `bidang`.`id_bidang` = `karyawan`.`id_bidang`
+JOIN `karyawan` ON `karyawan`.`id_karyawan` = `penilaian`.`id_karyawan`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `penilaian`.*, `karyawan`.*, `bidang`.`nama_bidang`
+FROM `penilaian`
+JOIN `bidang` ON `bidang`.`id_bidang` = `karyawan`.`id_bidang`
+JOIN `karyawan` ON `karyawan`.`id_karyawan` = `penilaian`.`id_karyawan`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\DataPenilaian.php(134): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->cetak()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')

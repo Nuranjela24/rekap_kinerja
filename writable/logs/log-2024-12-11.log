@@ -1,0 +1,37 @@
+CRITICAL - 2024-12-11 06:54:08 --> ErrorException: Undefined array key "nik"
+[Method: GET, Route: data-penilaian]
+in APPPATH\Views\data-penilaian.php on line 111.
+ 1 APPPATH\Views\data-penilaian.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nik"', 'D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian.php', 111)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\rekap_kinerja\\app\\Views\\data-penilaian.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-penilaian', [], true)
+ 5 APPPATH\Controllers\DataPenilaian.php(50): view('data-penilaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-12-11 07:51:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 39.
+ 1 APPPATH\Controllers\DataPenilaian.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
+CRITICAL - 2024-12-11 07:51:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: data-penilaian]
+in APPPATH\Controllers\DataPenilaian.php on line 39.
+ 1 APPPATH\Controllers\DataPenilaian.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\rekap_kinerja\\app\\Controllers\\DataPenilaian.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPenilaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPenilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\rekap_kinerja\\public\\index.php')
