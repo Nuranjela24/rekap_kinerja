@@ -23,3 +23,5 @@ $routes->get('/data-penilaian/edit/(:any)', 'Datapenilaian::edit/$1');
 $routes->post('/data-penilaian/update/(:any)', 'Datapenilaian::update/$1');
 $routes->get('/data-penilaian/delete/(:any)', 'Datapenilaian::delete/$1');
 $routes->post('/data-penilaian/cetak', 'Datapenilaian::cetak');
+
+$routes->get('/data-slip-gaji', 'Datakaryawan::slip_gaji');

@@ -102,4 +102,24 @@ class Datakaryawan extends BaseController
         $this->karyawanModel->delete($id);
         return redirect()->to('/data-karyawan');
     }
+
+    public function slip_gaji()
+    {
+        // var_dump(session('level'));exit;
+        $id_login = session('id_login');
+        // $data = $this->karyawanModel
+        //     //   ->join('bidang','bidang.id_bidang=karyawan.id_bidang')
+        //     ->where('id_login', $id_login)->first();
+        // $id_bidang = $data['id_bidang'];
+        // //   var_dump($data['nama_bidang']);exit;
+        // $data['karyawan'] = $this->karyawanModel
+        //     ->select('karyawan.id_karyawan,karyawan.nik, karyawan.nama, karyawan.jabatan, karyawan.tanggal_bekerja, karyawan.id_bidang, bidang.nama_bidang')
+        //     ->join('bidang', 'bidang.id_bidang = karyawan.id_bidang')
+        //     ->where('bidang.id_bidang', $id_bidang)
+        //     ->findAll();
+        echo view('layout/header');
+        echo view('layout/menu');
+        echo view('data-slip-gaji');
+        echo view('layout/footer');
+    }
 }

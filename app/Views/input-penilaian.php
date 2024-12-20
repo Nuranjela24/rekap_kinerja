@@ -50,11 +50,14 @@
                     data-target="#collapse00001" aria-expanded="true"
                     aria-controls="collapse00001">
                     <div class="d-grid gap-2">
-                      <button class="btn btn-primary" type="button">DISIPLIN</button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDisiplin" aria-expanded="true" aria-controls="collapseDisiplin">
+                    DISIPLIN
+                  </button>
                     </div>
                   </h5>
                 </div>
                 <br>
+                <div id="collapseDisiplin" class="collapse show" aria-labelledby="headingDisiplin" data-parent="#accordion">
                 <div id="collapse00001" class="collapse show"
                   aria-labelledby="heading00001" data-parent="#accordion">
                   <div class="card-body" style="border: 2px solid #ddd; border-radius: 8px; padding: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 10px;">
@@ -165,16 +168,20 @@
                     </div>
                   </div>
                 </div>
+                </div>
                 <div class="card-header" id="headingOne">
                   <h5 class="mb-0" data-toggle="collapse"
                     data-target="#collapse00001" aria-expanded="true"
                     aria-controls="collapse00001">
                     <div class="d-grid gap-2">
-                      <button class="btn btn-primary" type="button">KINERJA PELAYANAN</button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseKinerja" aria-expanded="true" aria-controls="collapseKinerja">
+                      KINERJA PELAYANAN
+                    </button>
                     </div>
                   </h5>
                 </div>
                 <br>
+                <div id="collapseKinerja" class="collapse show" aria-labelledby="headingKinerja" data-parent="#accordion">
                 <div id="collapse00001" class="collapse show"
                   aria-labelledby="heading00001" data-parent="#accordion">
                   <div class="card-body" style="border: 2px solid #ddd; border-radius: 8px; padding: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 10px;">
@@ -303,16 +310,21 @@
                     </div>
                   </div>
                 </div>
+                </div>
+                </div>
                 <div class="card-header" id="headingOne">
                   <h5 class="mb-0" data-toggle="collapse"
                     data-target="#collapse00001" aria-expanded="true"
                     aria-controls="collapse00001">
                     <div class="d-grid gap-2">
-                      <button class="btn btn-primary" type="button">LOYALITAS</button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseLoyalitas" aria-expanded="true" aria-controls="collapseLoyalitas">
+                      LOYALITAS
+                    </button>
                     </div>
                   </h5>
                 </div>
                 <br>
+                <div id="collapseLoyalitas" class="collapse show" aria-labelledby="headingLoyalitas" data-parent="#accordion">
                 <div id="collapse00001" class="collapse show"
                   aria-labelledby="heading00001" data-parent="#accordion">
                   <div class="card-body" style="border: 2px solid #ddd; border-radius: 8px; padding: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 10px;">
@@ -345,6 +357,7 @@
                     </div>
                   </div>
                 </div>
+                </div>
               </div>
               <div class="form-group row mt-4">
                 <div class="col-sm-12 text-right">
@@ -355,5 +368,32 @@
         </div>
       </div>
     </div>
+    <script>
+    // Menambahkan event listener untuk setiap input nilai
+    document.querySelectorAll('input[type="number"]').forEach(input => {
+      input.addEventListener('input', function() {
+        const max = parseInt(this.max);
+        if (this.value > max) {
+          this.value = max; // Set nilai ke nilai maksimal jika melebihi
+          alert(`Nilai tidak boleh lebih dari ${max}`);
+        }
+      });
+    });
+  </script>
+  <script>
+  // Ensure Bootstrap Collapse works
+  document.querySelectorAll('[data-toggle="collapse"]').forEach(button => {
+    button.addEventListener('click', function () {
+      const target = this.getAttribute('data-target');
+      const content = document.querySelector(target);
+      if (content.classList.contains('show')) {
+        content.classList.remove('show');
+      } else {
+        content.classList.add('show');
+      }
+    });
+  });
+</script>
+ 
     <!-- content-wrapper ends -->
     <!-- partial:partials/_footer.html -->

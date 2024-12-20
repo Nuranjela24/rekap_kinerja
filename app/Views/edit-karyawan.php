@@ -68,7 +68,7 @@
             <div class="form-group row">
               <div class="col-sm-10 offset-sm-2">
                 <button type="submit" class="btn btn-primary">Update</button>
-                <a href="/datakaryawan" class="btn btn-secondary">Batal</a>
+                <a href="/data-karyawan" class="btn btn-secondary">Batal</a>
               </div>
             </div>
 
