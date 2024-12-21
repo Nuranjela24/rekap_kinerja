@@ -119,7 +119,17 @@ class Datakaryawan extends BaseController
         //     ->findAll();
         echo view('layout/header');
         echo view('layout/menu');
-        echo view('data-slip-gaji');
+        echo view('slipgaji/data-slip-gaji');
+        echo view('layout/footer');
+    }
+
+    public function slip_gaji_detail()
+    {
+        $id_login = session('id_login');
+        var_dump(session('id_login'));
+        echo view('layout/header');
+        echo view('layout/menu');
+        echo view('slipgaji/data-slip-gaji-detail');
         echo view('layout/footer');
     }
 }

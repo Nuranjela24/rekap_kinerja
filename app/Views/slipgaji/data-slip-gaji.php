@@ -16,9 +16,6 @@
     <div class="col-md-12">
       <div class="card bg-light mb-3 shadow p-0 mb-5 bg-white">
         <div class="card-body">
-          <div class="mb-3">
-            <a href="#" class="btn btn-primary">Tambah Slip Gaji</a>
-          </div>
           <div class="table-responsive">
             <table class="table table-bordered table-hover">
               <thead>
