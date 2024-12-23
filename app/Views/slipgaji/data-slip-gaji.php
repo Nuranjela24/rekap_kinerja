@@ -21,27 +21,24 @@
               <thead>
                 <tr>
                   <th>No</th>
+                  <th>NIK</th>
                   <th>Nama</th>
                   <th>Jabatan</th>
-                  <th>Gaji Pokok</th>
-                  <th>Tunjangan</th>
-                  <th>Potongan</th>
-                  <th>Total Gaji</th>
+                  <th>Periode</th>
+                  <th>Tanggal Mulai Kerja</th>
                   <th>Aksi</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>1</td>
+                  <td>0123</td>
                   <td>Nur Anjela</td>
                   <td>Manager</td>
-                  <td>Rp10,000,000</td>
-                  <td>Rp2,000,000</td>
-                  <td>Rp500,000</td>
-                  <td>Rp11,500,000</td>
+                  <td>Desember 2024</td>
+                  <td>1 September 2024</td>
                   <td>
-                    <a href="#" class="btn btn-warning btn-sm">Edit</a>
-                    <a href="#" class="btn btn-danger btn-sm">Hapus</a>
+                    <a href="/data-slip-gaji-detail" class="btn btn-primary btn-sm">Detail</a>
                   </td>
                 </tr>
               </tbody>
