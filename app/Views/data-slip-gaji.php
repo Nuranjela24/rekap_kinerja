@@ -22,39 +22,15 @@
           <div class="table-responsive">
             <table class="table table-bordered table-hover">
               <thead>
-                <tr>
-                  <th>No</th>
-                  <th>Nama</th>
-                  <th>Jabatan</th>
-                  <th>Gaji Pokok</th>
-                  <th>Tunjangan</th>
-                  <th>Potongan</th>
-                  <th>Total Gaji</th>
-                  <th>Aksi</th>
-                </tr>
+
               </thead>
               <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>Nur Anjela</td>
-                  <td>Manager</td>
-                  <td>Rp10,000,000</td>
-                  <td>Rp2,000,000</td>
-                  <td>Rp500,000</td>
-                  <td>Rp11,500,000</td>
-                  <td>
-                    <a href="#" class="btn btn-warning btn-sm">Edit</a>
-                    <a href="#" class="btn btn-danger btn-sm">Hapus</a>
-                  </td>
-                </tr>
+
               </tbody>
             </table>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
-
-<!-- content-wrapper ends -->
-<!-- partial:partials/_footer.html -->
+    <!-- content-wrapper ends -->
+    <!-- partial:partials/_footer.html -->
