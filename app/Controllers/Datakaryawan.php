@@ -6,7 +6,7 @@ use App\Models\KaryawanModel;
 use App\Models\BidangModel;
 use App\Models\RuanganModel;
 
-class Datakaryawan extends BaseController
+class DataKaryawan extends BaseController
 {
     protected $karyawanModel;
     protected $bidangModel;

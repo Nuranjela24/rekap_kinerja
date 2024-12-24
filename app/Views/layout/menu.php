@@ -44,6 +44,12 @@
             </a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="/data-pegawai">
+              <span class="menu-title">Data Pegawai </span>
+              <i class="fa fa-money menu-icon"></i>
+            </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="/logout">
               <span class="menu-title">Logout </span>
               <i class="mdi mdi-logout menu-icon"></i>
