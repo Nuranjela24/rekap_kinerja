@@ -24,7 +24,7 @@ $routes->post('/data-penilaian/update/(:any)', 'Datapenilaian::update/$1');
 $routes->get('/data-penilaian/delete/(:any)', 'Datapenilaian::delete/$1');
 $routes->post('/data-penilaian/cetak', 'Datapenilaian::cetak');
 
-$routes->get('/data-slip-gaji', 'DataKaryawan::index');
-$routes->get('/data-slip-gaji-detail', 'DataKaryawan::slip_gaji_detail');
+$routes->get('/data-slip-gaji', 'SlipGajiController::index');
+$routes->get('/data-slip-gaji-detail', 'SlipGajiController::detail');
 
 $routes->get('/data-pegawai', 'DataPegawai::index');
