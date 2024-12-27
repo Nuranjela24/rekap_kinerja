@@ -22,8 +22,9 @@ class PegawaiModel extends Model
 
     public function getData()
     {
-        return $this->select('m_pegawai.*, m_jabatan.*')
+        return $this->select('m_pegawai.*, m_jabatan.*, m_posisi.*')
             ->join('m_jabatan', 'm_pegawai.jab_code = m_jabatan.jab_code')
+            ->join('m_posisi', 'm_pegawai.posi_code = m_posisi.posi_code')
             ->findAll();
     }
 

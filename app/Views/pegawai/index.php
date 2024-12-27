@@ -27,6 +27,7 @@
                                     <th>NIK</th>
                                     <th>Nama</th>
                                     <th>Jabatan</th>
+                                    <th>Posisi</th>
                                     <th>Tanggal Mulai Kerja</th>
                                 </tr>
                             </thead>
@@ -38,6 +39,7 @@
                                         <td><?= $dt_pegawai['peg_nik']; ?></td>
                                         <td><?= $dt_pegawai['peg_name']; ?></td>
                                         <td><?= $dt_pegawai['jab_name']; ?></td>
+                                        <td><?= $dt_pegawai['posi_name']; ?></td>
                                         <td><?= date('d-M-Y', strtotime($dt_pegawai['peg_sdate'])); ?></td>
                                     </tr>
                                 <?php } ?>
