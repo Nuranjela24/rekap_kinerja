@@ -11,17 +11,17 @@ class PegawaiController extends BaseController
     public function index()
     {
         // objek PegawaiModel
-        $pengguna_mod = new PegawaiModel();
+        $pegawai_m = new PegawaiModel();
 
         $data = [
             'title' => 'Data Pengguna',
             'active_menu' => 'master',
             'active_submenu' => 'pengguna',
 
-            'pengguna_con' => $pengguna_mod->getData()
+            'pegawai_c' => $pegawai_m->getData()
         ];
 
-        return view('pengguna/index', $data);
+        return view('pegawai/index', $data);
     }
 
     public function add()

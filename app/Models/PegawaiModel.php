@@ -7,10 +7,10 @@ use CodeIgniter\Model;
 class PegawaiModel extends Model
 {
     // db name
-    protected $DBGroup = 'sik';
+    protected $DBGroup = 'sirs';
 
     /** table name */
-    protected $table = "pegawai";
+    protected $table = "m_pegawai";
 
     /** primaryKey Field */
     protected $primaryKey = 'id';
@@ -18,11 +18,13 @@ class PegawaiModel extends Model
     /** primaryKey autoincrement */
     protected $useAutoIncrement = true;
     /** allowed Field */
-    protected $allowedFields = ['nik', 'nama', 'jk', 'jbtn', 'departemen'];
+    protected $allowedFields = ['peg_code', 'peg_name', 'peg_nik', 'peg_sdate', 'jab_code'];
 
     public function getData()
     {
-        return $this->findAll(); // retrieve all data
+        return $this->select('m_pegawai.*, m_jabatan.*')
+            ->join('m_jabatan', 'm_pegawai.jab_code = m_jabatan.jab_code')
+            ->findAll();
     }
 
     public function insertData($data)
