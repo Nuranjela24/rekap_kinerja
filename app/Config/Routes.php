@@ -25,6 +25,6 @@ $routes->get('/data-penilaian/delete/(:any)', 'Datapenilaian::delete/$1');
 $routes->post('/data-penilaian/cetak', 'Datapenilaian::cetak');
 
 $routes->get('/data-slip-gaji', 'SlipGajiController::index');
-$routes->get('/data-slip-gaji-detail', 'SlipGajiController::detail');
+$routes->get('/data-slip-gaji-detail/(:any)', 'SlipGajiController::detail/$1');
 
 $routes->get('/data-pegawai', 'PegawaiController::index');

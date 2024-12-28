@@ -10,31 +10,29 @@ class SlipGajiController extends BaseController
 {
     public function index()
     {
-        // var_dump(session('level'));exit;
-        $id_login = session('id_login');
-        // $data = $this->karyawanModel
-        //     //   ->join('bidang','bidang.id_bidang=karyawan.id_bidang')
-        //     ->where('id_login', $id_login)->first();
-        // $id_bidang = $data['id_bidang'];
-        // //   var_dump($data['nama_bidang']);exit;
-        // $data['karyawan'] = $this->karyawanModel
-        //     ->select('karyawan.id_karyawan,karyawan.nik, karyawan.nama, karyawan.jabatan, karyawan.tanggal_bekerja, karyawan.id_bidang, bidang.nama_bidang')
-        //     ->join('bidang', 'bidang.id_bidang = karyawan.id_bidang')
-        //     ->where('bidang.id_bidang', $id_bidang)
-        //     ->findAll();
+        $slipgaji_m = new SlipGajiModel();
+
+        $data = [
+            'slipgaji_c' => $slipgaji_m->getDataByPegawai('001')
+        ];
+
         echo view('layout/header');
         echo view('layout/menu');
-        echo view('slipgaji/data-slip-gaji');
+        echo view('slipgaji/index', $data);
         echo view('layout/footer');
     }
 
-    public function detail()
+    public function detail($id)
     {
-        $id_login = session('id_login');
-        var_dump(session('id_login'));
+        $slipgaji_m = new SlipGajiModel();
+
+        $data = [
+            'slipgaji_detail_c' => $slipgaji_m->getDataById($id)
+        ];
+
         echo view('layout/header');
         echo view('layout/menu');
-        echo view('slipgaji/data-slip-gaji-detail');
+        echo view('slipgaji/detail', $data);
         echo view('layout/footer');
     }
 

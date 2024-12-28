@@ -46,7 +46,7 @@
           <li class="nav-item">
             <a class="nav-link" href="/data-pegawai">
               <span class="menu-title">Data Pegawai </span>
-              <i class="fa fa-money menu-icon"></i>
+              <i class="mdi mdi-account-multiple-outline menu-icon"></i>
             </a>
           </li>
           <li class="nav-item">
