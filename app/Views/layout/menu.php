@@ -50,6 +50,12 @@
             </a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="/data-pengguna">
+              <span class="menu-title">Data Pengguna </span>
+              <i class="mdi mdi mdi-account-key menu-icon"></i>
+            </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="/logout">
               <span class="menu-title">Logout </span>
               <i class="mdi mdi-logout menu-icon"></i>

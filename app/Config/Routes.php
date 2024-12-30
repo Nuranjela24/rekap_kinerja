@@ -28,3 +28,5 @@ $routes->get('/data-slip-gaji', 'SlipGajiController::index');
 $routes->get('/data-slip-gaji-detail/(:any)', 'SlipGajiController::detail/$1');
 
 $routes->get('/data-pegawai', 'PegawaiController::index');
+$routes->post('/tambah-pengguna', 'PenggunaController::create');
+$routes->get('/data-pengguna', 'PenggunaController::index');
