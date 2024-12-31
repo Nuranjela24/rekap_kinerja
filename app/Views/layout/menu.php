@@ -59,11 +59,43 @@
           }
           ?>
           <li class="nav-item">
+<<<<<<< HEAD
               <a class="nav-link" href="/logout">
                 <span class="menu-title">Logout </span>
                 <i class="mdi mdi-logout menu-icon"></i>
               </a>
             </li>
+=======
+            <a class="nav-link" href="/data-penilaian">
+              <span class="menu-title">Penilaian </span>
+              <i class="mdi mdi-calculator menu-icon"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/data-slip-gaji">
+              <span class="menu-title">Slip Gaji </span>
+              <i class="fa fa-money menu-icon"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/data-pegawai">
+              <span class="menu-title">Data Pegawai </span>
+              <i class="mdi mdi-account-multiple-outline menu-icon"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/data-pengguna">
+              <span class="menu-title">Data Pengguna </span>
+              <i class="mdi mdi mdi-account-key menu-icon"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/logout">
+              <span class="menu-title">Logout </span>
+              <i class="mdi mdi-logout menu-icon"></i>
+            </a>
+          </li>
+>>>>>>> 1e54d76d58f2529b206bf90a82472ef3ef5279e4
         </ul>
       </nav>
       <!-- partial -->

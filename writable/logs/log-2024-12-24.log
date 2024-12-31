@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 CRITICAL - 2024-12-24 02:02:30 --> ErrorException: Trying to access array offset on value of type null
 [Method: GET, Route: data-karyawan]
 in APPPATH\Controllers\Datakaryawan.php on line 36.
@@ -176,3 +177,25 @@ INFO - 2024-12-24 02:37:32 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2024-12-24 02:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-12-24 02:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-12-24 02:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+=======
+CRITICAL - 2024-12-24 02:33:31 --> ErrorException: Cannot redeclare App\Controllers\DataKaryawan::index()
+[Method: GET, Route: data-slip-gaji]
+in APPPATH\Controllers\DataKaryawan.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-12-24 02:33:33 --> ErrorException: Cannot redeclare App\Controllers\DataKaryawan::index()
+[Method: GET, Route: data-karyawan]
+in APPPATH\Controllers\DataKaryawan.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-12-24 02:33:37 --> ErrorException: Cannot redeclare App\Controllers\DataKaryawan::index()
+[Method: GET, Route: data-karyawan]
+in APPPATH\Controllers\DataKaryawan.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-12-24 02:33:50 --> ErrorException: Cannot redeclare App\Controllers\DataKaryawan::index()
+[Method: GET, Route: data-slip-gaji]
+in APPPATH\Controllers\DataKaryawan.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-12-24 02:33:56 --> ErrorException: Cannot redeclare App\Controllers\DataKaryawan::index()
+[Method: GET, Route: data-slip-gaji]
+in APPPATH\Controllers\DataKaryawan.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+>>>>>>> 1e54d76d58f2529b206bf90a82472ef3ef5279e4

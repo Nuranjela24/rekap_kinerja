@@ -9,7 +9,7 @@ use App\Models\AuthModel;
 
 
 
-class Datakaryawan extends BaseController
+class DataKaryawan extends BaseController
 {
     protected $karyawanModel;
     protected $bidangModel;
@@ -135,6 +135,7 @@ class Datakaryawan extends BaseController
         $this->karyawanModel->delete($id);
         return redirect()->to('/data-karyawan');
     }
+<<<<<<< HEAD
 
     public function slip_gaji()
     {
@@ -171,4 +172,6 @@ class Datakaryawan extends BaseController
         echo view('slipgaji/data-slip-gaji-detail');
         echo view('layout/footer');
     }
+=======
+>>>>>>> 1e54d76d58f2529b206bf90a82472ef3ef5279e4
 }
