@@ -20,6 +20,9 @@ class DataPenilaian extends BaseController
 
     public function index()
     {
+        if (!session('id_login')) {
+            return redirect()->to('/'); // Ganti '/login' dengan URL login Anda
+        }
         $this->bidangModel = new BidangModel();
 
         $data['bidang'] = $this->bidangModel->findAll();
@@ -57,6 +60,9 @@ class DataPenilaian extends BaseController
 
     public function tambah()
     {
+        if (!session('id_login')) {
+            return redirect()->to('/'); // Ganti '/login' dengan URL login Anda
+        }
         $id_login=session('id_login');
       $data = $this->karyawanModel
     //   ->join('bidang','bidang.id_bidang=karyawan.id_bidang')
@@ -74,6 +80,9 @@ class DataPenilaian extends BaseController
 
     public function create()
     {
+        if (!session('id_login')) {
+            return redirect()->to('/'); // Ganti '/login' dengan URL login Anda
+        }
         $data = [
             'id_karyawan' => $this->request->getPost('id_karyawan'),
             'tanggal' => $this->request->getPost('tanggal'),
@@ -103,6 +112,9 @@ class DataPenilaian extends BaseController
 
     public function edit($id)
     {
+        if (!session('id_login')) {
+            return redirect()->to('/'); // Ganti '/login' dengan URL login Anda
+        }
         $data = [
             'penilaian' => $this->penilaianModel->find($id),
             'karyawan' => $this->karyawanModel->findAll()
@@ -115,6 +127,9 @@ class DataPenilaian extends BaseController
 
     public function update($id)
     {
+        if (!session('id_login')) {
+            return redirect()->to('/'); // Ganti '/login' dengan URL login Anda
+        }
         $data = [
             'id_karyawan' => $this->request->getPost('id_karyawan'),
             'tanggal' => $this->request->getPost('tanggal'),
@@ -126,12 +141,18 @@ class DataPenilaian extends BaseController
 
     public function delete($id)
     {
+        if (!session('id_login')) {
+            return redirect()->to('/'); // Ganti '/login' dengan URL login Anda
+        }
         $this->penilaianModel->delete($id);
         return redirect()->to('/data-penilaian');
     }
 
     public function cetak()
     {
+        if (!session('id_login')) {
+            return redirect()->to('/'); // Ganti '/login' dengan URL login Anda
+        }
         // $id_bidang = $this->request->getPost('id_bidang');
         $tanggal_penilaian = $this->request->getPost('tanggal_penilaian');
         $dompdf = new Dompdf();

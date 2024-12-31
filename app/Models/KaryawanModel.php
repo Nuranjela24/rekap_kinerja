@@ -13,6 +13,7 @@ class KaryawanModel extends Model
         'nama',
         'jabatan',
         'tanggal_bekerja',
-        'id_bidang'
+        'id_bidang',
+        // 'id_login'
     ];
 }

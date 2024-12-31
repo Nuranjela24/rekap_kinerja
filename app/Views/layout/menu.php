@@ -19,7 +19,7 @@
             </a>
           </li>
           <?php
-          if (session('level')!='admin') {
+          if (session('level')=='kepala unit') {
          
           ?>
           <li class="nav-item">
@@ -30,25 +30,40 @@
           </li>
           <?php
           }
+          if (session('level') == 'admin' || session('level') == 'kepala unit') {
+            ?>
+            <li class="nav-item">
+              <a class="nav-link" href="/data-penilaian">
+                <span class="menu-title">Penilaian </span>
+                <i class="mdi mdi-calculator menu-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/data-slip-gaji">
+                <span class="menu-title">Slip Gaji </span>
+                <i class="fa fa-money menu-icon"></i>
+              </a>
+            </li>
+            
+            <?php
+          }
+          if (session('level')=='karyawan') {
+            ?>
+            <li class="nav-item">
+              <a class="nav-link" href="/data-slip-gaji">
+                <span class="menu-title">Slip Gaji </span>
+                <i class="fa fa-money menu-icon"></i>
+              </a>
+            </li>
+            <?php
+          }
           ?>
           <li class="nav-item">
-            <a class="nav-link" href="/data-penilaian">
-              <span class="menu-title">Penilaian </span>
-              <i class="mdi mdi-calculator menu-icon"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/data-slip-gaji">
-              <span class="menu-title">Slip Gaji </span>
-              <i class="fa fa-money menu-icon"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/logout">
-              <span class="menu-title">Logout </span>
-              <i class="mdi mdi-logout menu-icon"></i>
-            </a>
-          </li>
+              <a class="nav-link" href="/logout">
+                <span class="menu-title">Logout </span>
+                <i class="mdi mdi-logout menu-icon"></i>
+              </a>
+            </li>
         </ul>
       </nav>
       <!-- partial -->

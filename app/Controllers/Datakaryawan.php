@@ -5,21 +5,30 @@ namespace App\Controllers;
 use App\Models\KaryawanModel;
 use App\Models\BidangModel;
 use App\Models\RuanganModel;
+use App\Models\AuthModel;
+
+
 
 class Datakaryawan extends BaseController
 {
     protected $karyawanModel;
     protected $bidangModel;
     protected $ruanganModel;
+    protected $AuthModel;
 
     public function __construct()
     {
         $this->karyawanModel = new KaryawanModel();
         $this->bidangModel = new BidangModel();
         $this->ruanganModel = new RuanganModel();
+        $this->AuthModel = new AuthModel();
+        
     }
     public function index()
     {
+        if (!session('id_login')) {
+            return redirect()->to('/'); // Ganti '/login' dengan URL login Anda
+        }
         // var_dump(session('level'));exit;
         $id_login = session('id_login');
         $data = $this->karyawanModel
@@ -39,6 +48,9 @@ class Datakaryawan extends BaseController
     }
     public function tambah()
     {
+        if (!session('id_login')) {
+            return redirect()->to('/'); // Ganti '/login' dengan URL login Anda
+        }
         // var_dump('a');exit;
         $id_login = session('id_login');
         $data = $this->karyawanModel
@@ -57,19 +69,34 @@ class Datakaryawan extends BaseController
     }
     public function create()
     {
+        if (!session('id_login')) {
+            return redirect()->to('/'); // Ganti '/login' dengan URL login Anda
+        }
+        // $data = [
+        //     'username' => $this->request->getPost('username'),
+        //     'password' => password_hash($this->request->getPost('password'), PASSWORD_DEFAULT), // Hash the password
+        //     'level' => 'karyawan'
+        // ];
+        // $this->AuthModel->insert($data);
+        // $id_login = $this->AuthModel->insertID(); // Get the id_login from the insert operation
+        
+        
         $data = [
             'nik' => $this->request->getPost('nik'),
             'nama' => $this->request->getPost('nama'),
             'jabatan' => $this->request->getPost('jabatan'),
             'tanggal_bekerja' => $this->request->getPost('tanggal_bekerja'),
-            'id_bidang' => $this->request->getPost('id_bidang')
+            'id_bidang' => $this->request->getPost('id_bidang'),
+            // 'id_login' => $id_login // Insert id_login into the karyawan table
         ];
         $this->karyawanModel->insert($data);
-        // var_dump($data);exit;
         return redirect()->to('/data-karyawan');
     }
     public function edit($id)
     {
+        if (!session('id_login')) {
+            return redirect()->to('/'); // Ganti '/login' dengan URL login Anda
+        }
         $id_login = session('id_login');
         $data = $this->karyawanModel
             //   ->join('bidang','bidang.id_bidang=karyawan.id_bidang')
@@ -86,6 +113,9 @@ class Datakaryawan extends BaseController
     }
     public function update($id)
     {
+        if (!session('id_login')) {
+            return redirect()->to('/'); // Ganti '/login' dengan URL login Anda
+        }
         $data = [
             'nik' => $this->request->getPost('nik'),
             'nama' => $this->request->getPost('nama'),
@@ -99,12 +129,18 @@ class Datakaryawan extends BaseController
     }
     public function delete($id)
     {
+        if (!session('id_login')) {
+            return redirect()->to('/'); // Ganti '/login' dengan URL login Anda
+        }
         $this->karyawanModel->delete($id);
         return redirect()->to('/data-karyawan');
     }
 
     public function slip_gaji()
     {
+        if (!session('id_login')) {
+            return redirect()->to('/'); // Ganti '/login' dengan URL login Anda
+        }
         // var_dump(session('level'));exit;
         $id_login = session('id_login');
         // $data = $this->karyawanModel
@@ -125,6 +161,9 @@ class Datakaryawan extends BaseController
 
     public function slip_gaji_detail()
     {
+        if (!session('id_login')) {
+            return redirect()->to('/'); // Ganti '/login' dengan URL login Anda
+        }
         $id_login = session('id_login');
         var_dump(session('id_login'));
         echo view('layout/header');

@@ -11,7 +11,7 @@
         <div class="col-md-12">
             <div class="card bg-light mb-3 shadow p-0 mb-5 bg-white">
                 <div class="card-body" style="padding: 0; margin: 0;">
-                    <iframe id="slipGajiIframe"  srcdoc="
+                    <iframe id="slipGajiIframe" srcdoc="
                     <!DOCTYPE html>
                     <html lang='en'>
                     <head>

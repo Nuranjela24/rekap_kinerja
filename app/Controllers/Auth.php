@@ -18,29 +18,26 @@ class Auth extends Controller
     public function login()
     {
         // Add your login logic here
+        // var_dump(password_hash('admin', PASSWORD_DEFAULT));exit;
         $model = new AuthModel();
         $karyawan = new KaryawanModel();
         $username = $this->request->getPost('username');
-        // $password = md5($this->request->getPost('password'));
-        $password = md5($this->request->getPost('password'));
-        $data = $model->where('username', $username)->where('password', $password)->first();
-        // var_dump('a');exit;
-        // var_dump($data);exit;
-        if($data){
+        $password = $this->request->getPost('password'); // Get the plain password
+        $data = $model->where('username', $username)->first(); // Get user data by username
+
+       
+        if ($data && password_verify($password, $data['password'])) {
             $_SESSION['id_login'] = $data['id_login'];
             $_SESSION['username'] = $data['username'];
             $_SESSION['level'] = $data['level'];
             $_SESSION['logged_in'] = TRUE;
             session()->set($data);
-            if ($data['level']=='admin') {
-                
+            if ($data['level'] == 'admin') {
                 return redirect()->to('/data-penilaian');
-            }else{
-                // $id_login=$data['id_login'];
-                // $data = $model->where('username', $username)->where('password', $password)->first();
+            } else {
                 return redirect()->to('/data-karyawan');
             }
-        }else{
+        } else {
             session()->setFlashdata('msg', 'Username atau Password salah');
             return redirect()->to('/');
         }
@@ -52,6 +49,4 @@ class Auth extends Controller
         session()->destroy();
         return redirect()->to('/');
     }
-
-   
 }
